@@ -1,0 +1,9 @@
+ find noise data points and irregular shape ...
+kmeans only  represented in spherical shape,whereas diviscan can be in any shape.
+ TWO PARAMETERS::
+   1)EPS:Epsilon(radius of sphere)
+   2)Min point
+# Three types of points are present in the DBSCan Ex:epsilon=3,minpoint=4
+     i)Core point(if min point present in epsilon)
+    ii)Boundary point(min point not present in epsilon)
+    iii)Noise point(single point)
